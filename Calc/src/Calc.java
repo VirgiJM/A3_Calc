@@ -7,6 +7,7 @@ import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.widgets.Label;
 
+/*Hola Mundo*/
 public class Calc {
 
 	protected Shell shlCalculadora;
@@ -200,7 +201,7 @@ public class Calc {
 		btn_clear.setBounds(334, 121, 73, 99);
 		btn_clear.setText("C");
 		
-		// BOTÓ -
+		// BOTÃ“ -
 		Button btn_restar = new Button(shlCalculadora, SWT.NONE);
 		btn_restar.addSelectionListener(new SelectionAdapter() {
 			@Override
@@ -228,7 +229,7 @@ public class Calc {
 		btn_divisio.setText("/");
 		btn_divisio.setBounds(257, 244, 61, 35);
 
-		// NÚMERO 8		
+		// NÃšMERO 8		
 		Button btn_8_1 = new Button(shlCalculadora, SWT.NONE);
 		btn_8_1.setText("8");
 		btn_8_1.addSelectionListener(new SelectionAdapter() {
@@ -239,7 +240,7 @@ public class Calc {
 		});
 		btn_8_1.setBounds(109, 121, 35, 35);
 		
-		// NÚMERO 6		
+		// NÃšMERO 6		
 				Button btn_6_1 = new Button(shlCalculadora, SWT.NONE);
 				btn_6_1.setText("6");
 				btn_6_1.addSelectionListener(new SelectionAdapter() {
@@ -250,7 +251,7 @@ public class Calc {
 				});
 				btn_6_1.setBounds(179, 162, 35, 35);
 		
-		// NÚMERO 4
+		// NÃšMERO 4
 		Button btn_4 = new Button(shlCalculadora, SWT.NONE);
 		btn_4.setText("4");
 		btn_4.setBounds(39, 162, 35, 35);
